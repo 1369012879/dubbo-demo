@@ -18,10 +18,10 @@
     <!-- use dubbo protocol to export service on port 20880 -->
     <dubbo:protocol name="dubbo" port="20880" />
 
-    <!-- service implementation, as same as regular local bean -->
-    <bean id="testService" class="com.leon.provider.service.impl.TestServiceImpl"/>
-
     <!-- declare the service interface to be exported -->
     <dubbo:service interface="com.leon.api.service.TestService" ref="testService" />
+
+    <!-- service implementation, as same as regular local bean -->
+    <bean id="testService" class="com.leon.provider.service.impl.TestServiceImpl"/>
 
 </beans>
