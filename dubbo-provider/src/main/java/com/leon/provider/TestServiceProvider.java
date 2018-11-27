@@ -6,6 +6,12 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
 
+/**
+ * TestServiceProvider 服务提供方
+ *
+ * @author leon
+ * @date 2018/11/27
+ */
 public class TestServiceProvider {
 
     private static final Logger LOG = LoggerFactory.getLogger(TestServiceProvider.class);

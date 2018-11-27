@@ -8,9 +8,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * TestServiceImpl
- * @author
- * @date
+ * TestServiceImpl 接口实现类
+ *
+ * @author leon
+ * @date 2018/11/27
  */
 @Service("testService")
 public class TestServiceImpl implements TestService {

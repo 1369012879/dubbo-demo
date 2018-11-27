@@ -8,10 +8,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.io.IOException;
 
 /**
- * TestServiceConsumer
+ * TestServiceConsumer 服务消费方
  *
- * @author
- * @date
+ * @author leon
+ * @date 2018/11/27
  */
 public class TestServiceConsumer {
 
@@ -26,6 +26,7 @@ public class TestServiceConsumer {
         while (true){
             try {
                 Thread.sleep(1000);
+                LOG.info("testService consumer");
                 // call remote method
                 String hello = testService.sayHello("Leon");
                 // get result
